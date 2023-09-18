@@ -1,6 +1,4 @@
-﻿using System.Data.Common;
-
-namespace ForeachRemoveList
+﻿namespace ForeachRemoveList
 {
     public class Program
     {

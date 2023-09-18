@@ -1,3 +1,4 @@
+namespace ForeachRemoveList;
 public class Cliente
 {
     public int Id { get; set; }
