@@ -10,7 +10,7 @@ public class Endereco
     public string Estado { get; set; }
     public override string ToString()
     {
-        return $"{Logradouro}, {Numero}, {Bairro}, {Cidade}, {Estado}";
+        return $"{Id}, {Logradouro}, {Numero}, {Bairro}, {Cidade}, {Estado}";
     }
 
 }
