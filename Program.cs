@@ -1,4 +1,4 @@
-﻿var cliente = new Cliente // criar cliente
+﻿var cliente = new Cliente // criar/instanciar cliente
 {
     Nome = "Hisllaylla",
     Idade = "19",
@@ -8,7 +8,7 @@
 };
 cliente.ListaEndereco = new List<Endereco>(); // listar 5 endereços
 
-var endereco1 = new Endereco
+var endereco1 = new Endereco // instanciar endereço
 {
     Id = 1,
     Logradouro = "Rua da Imprensa",
@@ -17,7 +17,7 @@ var endereco1 = new Endereco
     Cidade = "Campo Grande",
     Estado = "MS"
 };
-cliente.ListaEndereco.Add(endereco1);
+cliente.ListaEndereco.Add(endereco1); // adicionar endereço
 
 var endereco2 = new Endereco
 {
